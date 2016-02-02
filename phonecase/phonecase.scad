@@ -41,6 +41,6 @@ difference() {
     roundedcube([71.9+1.4, 143.2+1.5, 8.5+1.4], false, 5, "zmin");
     translate(v = [0.7,0.7,1])
     roundedcube([71.9, 143.2, 8.5+2], false, 4, "zmin");
-    translate([0,0,0])
+    translate([36,0,0])
     roundedcube([14, 14, 20], true, 2, "z");
 }
