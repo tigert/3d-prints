@@ -37,8 +37,12 @@ apply_to = "all";
 
 color("Yellow")
 
+/case
 difference() {
     roundedcube([71.9+1.4, 143.2+1.5, 8.5+1.4], true, 5, "zmin");
     translate(v = [0,0,1])
-    roundedcube([71.9, 143.2, 8.5+2], true, 4, "zmin");    
+    roundedcube([71.9, 143.2, 8.5+2], true, 4, "zmin");
+    translate([0,0,0])
+    // camera hole
+    roundedcube([14, 14, 10], true, 4, "z");
 }
