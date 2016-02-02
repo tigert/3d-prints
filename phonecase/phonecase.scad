@@ -37,7 +37,6 @@ apply_to = "all";
 
 color("Yellow")
 
-/case
 difference() {
     roundedcube([71.9+1.4, 143.2+1.5, 8.5+1.4], true, 5, "zmin");
     union() {
