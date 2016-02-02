@@ -36,4 +36,4 @@ apply_to = "all";
 //roundedcube([3, 2, 2], true, 0.2);
 
 color("Green")
-roundedcube([71.9, 143.2, 8.5], true, 4, "zmin");
+roundedcube([71.9, 143.2, 8.5], true, 3, "zmin");
