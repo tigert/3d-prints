@@ -5,7 +5,7 @@ size = [2, 3, 5];
 size = 5;
 
 // Whether or not to place the object centered on the origin. Default false
-center = true|false;
+center = true;
 
 // Specify a rounding radius. Default 0.5
 radius = 0.5
