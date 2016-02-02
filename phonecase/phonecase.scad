@@ -44,5 +44,5 @@ difference() {
     translate([71.9/2,18,0])
     roundedcube([14, 14, 20], true, 2, "z");
     translate([71.9/2,32,0])
-    roundedcube([14, 14, 20], true, 2, "z");
+    roundedcube([10, 10, 20], true, 2, "z");
 }
