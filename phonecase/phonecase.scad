@@ -39,6 +39,6 @@ color("Yellow")
 
 difference() {
     roundedcube([71.9+1.4, 143.2+1.5, 8.5+1.4], true, 3, "zmin");
-    translate(v = [0,0,0.25])
+    translate(v = [0,0,0.30])
     roundedcube([71.9, 143.2, 8.5+2], true, 3, "zmin");    
 }
