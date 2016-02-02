@@ -43,6 +43,5 @@ difference() {
     translate(v = [0,0,1])
     roundedcube([71.9, 143.2, 8.5+2], true, 4, "zmin");
     translate([0,0,0])
-    // camera hole
     roundedcube([14, 14, 10], true, 2, "z");
 }
