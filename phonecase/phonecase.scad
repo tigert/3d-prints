@@ -1,3 +1,5 @@
+include <roundedcube.scad>
+
 // An [x, y, z] vector specifies distance on each axis. Default [1, 1, 1]
 size = [2, 3, 5];
 
