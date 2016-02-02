@@ -36,4 +36,10 @@ apply_to = "all";
 //roundedcube([3, 2, 2], true, 0.2);
 
 color("Yellow")
-roundedcube([71.9, 143.2, 8.5], true, 3, "zmin");
+
+difference{
+    roundedcube([71.9+1.4, 143.2+1.5, 8.5+1.4], true, 3, "zmin");
+    translate(v = [0,0,0.7])
+    roundedcube([71.9, 143.2, 8.5], true, 3, "zmin");
+    
+}
