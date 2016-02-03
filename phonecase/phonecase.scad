@@ -49,8 +49,8 @@ difference() {
     roundedcube([5, 10, 20], true, 2, "zmin");
     translate([0,45,9]) // volume buttons
     roundedcube([20, 40, 20], true, 2, "all");
-    translate([-80,45,9]) // custom button on left
-    roundedcube([20, 40, 20], true, 2, "all");
+    translate([75,52.5,9]) // custom button on left
+    roundedcube([20, 10, 20], true, 2, "all");
     translate([71.9/2,145,11]) // usb + speakers on bottom
     roundedcube([55, 20, 20], true, 2, "all");
 }
