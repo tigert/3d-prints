@@ -17,6 +17,6 @@ difference() {
     translate([71.9/2,145,10]) // usb + speakers on bottom
     roundedcube([55, 20, 20], true, 2, "all");
 
-    translate(v = [0.7,0.7,0]) // inner cutout shell (phone)
-    roundedcube([71.9, 143.2, 8.5], true, 5, "z");
 }
+    translate(v = [0,0,5]) // inner cutout shell (phone)
+    roundedcube([71.9, 143.2, 8.5], true, 5, "z");
