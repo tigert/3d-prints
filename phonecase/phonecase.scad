@@ -11,7 +11,7 @@ difference() {
     roundedcube([phone_width, phone_length, phone_thickness], true, 5, "z");
     translate([0,19-(phone_length/2),0]) // camera
     roundedcube([15, 15, 20], true, 2, "z");
-    translate([0,30-(phone_length/2),0]) // fingerprint sensor
+    translate([0,33-(phone_length/2),0]) // fingerprint sensor
     roundedcube([12, 12, 20], true, 2, "z");
     translate([49.5-(phone_width/2),18-(phone_length/2),0]) // camera flash hole
     roundedcube([5, 10, 20], true, 2, "z");
