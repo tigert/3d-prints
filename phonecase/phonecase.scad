@@ -48,5 +48,5 @@ difference() {
     translate([49.5,18,0]) // camera flash hole
     roundedcube([5, 10, 20], true, 2, "zmin");
 }
-    translate([49.5,18,12]) // volume buttons
+    translate([49.5,18,10.7]) // volume buttons
     roundedcube([20, 10, 20], true, 2, "all");
