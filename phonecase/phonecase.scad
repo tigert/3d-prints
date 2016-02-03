@@ -38,7 +38,7 @@ apply_to = "all";
 color("Yellow")
 
 difference() {
-    roundedcube([71.9+1.4, 143.2+1.4, 8.5+1.4], true, 6, "zmax");
+    roundedcube([71.9+1.4, 143.2+1.4, 8.5+1.4], true, 6, "all");
     translate([71.9/2,18,0]) // camera
     roundedcube([14, 14, 20], true, 2, "z");
     translate([71.9/2,32,0]) // fingerprint sensor
