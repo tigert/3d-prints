@@ -52,5 +52,5 @@ difference() {
     translate([-80,45,11]) // custom button on left
     roundedcube([20, 40, 20], true, 2, "all");
 }
-    translate([-80,45,11]) // custom button on left
+    translate([80,45,11]) // custom button on left
     roundedcube([20, 40, 20], true, 2, "all");
