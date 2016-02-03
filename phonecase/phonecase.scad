@@ -6,23 +6,23 @@ phone_length = 143.2;
 phone_thickness = 8.5; // includes lens bulge!
 
 difference() {
-    roundedcube([(71.9+1.4), 143.2+1.4, 8.5+1.4], true, 6, "z");
+    roundedcube([(phone_width+1.4), phone_length+1.4, phone_thickness+1.4], true, 6, "z");
     translate(v = [0,0,0]) // inner cutout shell (phone)
-    roundedcube([71.9, 143.2, 8.5], true, 5, "z");
-    translate([0,18-(143.2/2),0]) // camera
+    roundedcube([phone_width, phone_length, phone_thickness], true, 5, "z");
+    translate([0,18-(phone_length/2),0]) // camera
     roundedcube([14, 14, 20], true, 2, "z");
-    translate([0,32-(143.2/2),0]) // fingerprint sensor
+    translate([0,32-(phone_length/2),0]) // fingerprint sensor
     roundedcube([12, 12, 20], true, 2, "z");
-    translate([49.5-(71.9/2),18-(143.2/2),0]) // camera flash hole
+    translate([49.5-(phone_width/2),18-(phone_length/2),0]) // camera flash hole
     roundedcube([5, 10, 20], true, 2, "z");
 
     translate(v = [0,0,10]) // upper rim grip
-    roundedcube([71.9-0.7, 143.2-0.7, 8.5], true, 5, "z");
+    roundedcube([phone_width-0.7, phone_length-0.7, phone_thickness], true, 5, "z");
 
 
-    translate([0-(71.9/2),45-(143.2/2),0]) // volume buttons
+    translate([0-(phone_width/2),45-(phone_length/2),0]) // volume buttons
     roundedcube([20, 40, 8], true, 2, "all");
-    translate([75-(71.9/2),52.5-(143.2/2),0]) // custom button on left
+    translate([75-(phone_width/2),52.5-(phone_length/2),0]) // custom button on left
     roundedcube([20, 10, 8], true, 2, "all");
     translate([0,145/2,0]) // usb + speakers on bottom
     roundedcube([55, 20, 8], true, 2, "all");
