@@ -47,10 +47,10 @@ difference() {
     roundedcube([12, 12, 20], true, 2, "zmin");
     translate([49.5,18,0]) // camera flash hole
     roundedcube([5, 10, 20], true, 2, "zmin");
-    translate([0,45,9]) // volume buttons
+    translate([0,45,10]) // volume buttons
     roundedcube([20, 40, 20], true, 2, "all");
-    translate([75,52.5,9]) // custom button on left
+    translate([75,52.5,10]) // custom button on left
     roundedcube([20, 10, 20], true, 2, "all");
-    translate([71.9/2,145,11]) // usb + speakers on bottom
+    translate([71.9/2,145,10]) // usb + speakers on bottom
     roundedcube([55, 20, 20], true, 2, "all");
 }
