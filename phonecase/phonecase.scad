@@ -5,7 +5,7 @@ difference() {
     translate(v = [0.7,0.7,0]) // cutout shell
     roundedcube([71.9, 143.2, 8.5], true, 5, "z");
     translate([0,18-(143.2/2),0]) // camera
-    roundedcube([14, 14, 20], true, 2, "z");
+    roundedcube([14, 14-(143.2/2), 20], true, 2, "z");
     translate([0,32,0]) // fingerprint sensor
     roundedcube([12, 12, 20], true, 2, "zmin");
     translate([49.5,18,0]) // camera flash hole
