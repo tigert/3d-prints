@@ -54,5 +54,5 @@ difference() {
     translate([75,52.5,11]) // custom button on left
     roundedcube([20, 10, 20], true, 2, "all");
     translate([71.9/2,145,11]) // usb + speakers on bottom
-    roundedcube([55, 10, 20], true, 1, "all");
+    roundedcube([55, 10, 20], true, 2, "all");
 }
