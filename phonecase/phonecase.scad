@@ -19,4 +19,4 @@ difference() {
 
 }
     translate(v = [0,0,5]) // inner cutout shell (phone)
-    roundedcube([71.9, 143.2, 8.5], true, 5, "z");
+    roundedcube([71.9-0.7, 143.2, 8.5], true, 5, "z");
