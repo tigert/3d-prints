@@ -54,6 +54,6 @@ difference() {
     translate([71.9/2,145,11]) // usb + speakers on bottom
     roundedcube([55, 20, 20], true, 2, "all");
 }
-    translate(v = [0.7,0.7,-1]) // cutout shell
+    translate(v = [0.7,0.7,-2]) // cutout shell
     color("Gray")
     roundedcube([71.9, 143.2, 8.5+10], false, 5, "z");
