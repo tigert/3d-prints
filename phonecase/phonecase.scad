@@ -13,7 +13,7 @@ difference() {
     roundedcube([16, 16, 20], true, 2, "z");
     translate([0,33-(phone_length/2),0]) // fingerprint sensor
     roundedcube([14, 14, 20], true, 2, "z");
-    translate([49.5-(phone_width/2),18-(phone_length/2),0]) // camera flash hole
+    translate([49.5-(phone_width/2),20-(phone_length/2),0]) // camera flash hole
     roundedcube([5, 10, 20], true, 2, "z");
 
     translate(v = [0,0,10]) // upper rim grip
