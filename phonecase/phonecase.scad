@@ -18,6 +18,6 @@ difference() {
     roundedcube([55, 20, 20], true, 2, "all");
 
     translate(v = [0,0,10]) // upper rim grip
-    roundedcube([71.9-1.4, 143.2-1.4, 8.5], true, 5, "z");
+    roundedcube([71.9-0.7, 143.2-0.7, 8.5], true, 5, "z");
 
 }
