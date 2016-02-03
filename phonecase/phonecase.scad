@@ -14,9 +14,6 @@ difference() {
     translate(v = [0,0,10]) // upper rim grip
     roundedcube([71.9-0.7, 143.2-0.7, 8.5], true, 5, "z");
 
-}
-
-    color("Red");
 
     translate([0-(71.9/2),45-(143.2/2),10]) // volume buttons
     roundedcube([20, 40, 20], true, 2, "all");
@@ -24,3 +21,5 @@ difference() {
     roundedcube([20, 10, 20], true, 2, "all");
     translate([0,145/2,10]) // usb + speakers on bottom
     roundedcube([55, 20, 20], true, 2, "all");
+
+}
