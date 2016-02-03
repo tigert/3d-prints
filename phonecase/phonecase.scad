@@ -17,7 +17,7 @@ difference() {
     translate([71.9/2,145,10]) // usb + speakers on bottom
     roundedcube([55, 20, 20], true, 2, "all");
 
-    translate(v = [0,0,10]) // inner cutout shell (phone)
+    translate(v = [0,0,10]) // upper rim grip
     roundedcube([71.9-0.7, 143.2-0.7, 8.5], true, 5, "z");
 
 }
