@@ -49,4 +49,8 @@ difference() {
     roundedcube([5, 10, 20], true, 2, "zmin");
     translate([0,45,11]) // volume buttons
     roundedcube([20, 40, 20], true, 2, "all");
+    translate([-80,45,11]) // custom button on left
+    roundedcube([20, 40, 20], true, 2, "all");
 }
+    translate([-80,45,11]) // custom button on left
+    roundedcube([20, 40, 20], true, 2, "all");
