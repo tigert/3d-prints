@@ -39,7 +39,7 @@ color("Yellow")
 
 difference() {
     roundedcube([71.9+1.4, 143.2+1.4, 8.5+1.4], false, 6, "z");
-    translate(v = [0.7,0.7,0]) // cutout shell
+    translate(v = [0.7,0.7,0.7]) // cutout shell
     roundedcube([71.9, 143.2, 8.5+100], false, 5, "z");
     translate([71.9/2,18,0]) // camera
     roundedcube([14, 14, 20], true, 2, "z");
