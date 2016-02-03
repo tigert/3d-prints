@@ -56,4 +56,4 @@ difference() {
 }
     translate(v = [0.7,0.7,-0.7]) // cutout shell
     color("Gray")
-    roundedcube([71.9, 143.2, 8.5+2], false, 5, "zmax");
+    roundedcube([71.9, 143.2, 8.5+2], false, 6, "zmax");
