@@ -7,9 +7,9 @@ difference() {
     translate([0,18-(143.2/2),0]) // camera
     roundedcube([14, 14, 20], true, 2, "z");
     translate([0,32-(143.2/2),0]) // fingerprint sensor
-    roundedcube([12, 12, 20], true, 2, "zmin");
+    roundedcube([12, 12, 20], true, 2, "z");
     translate([49.5,18-(143.2/2),0]) // camera flash hole
-    roundedcube([5, 10, 20], true, 2, "zmin");
+    roundedcube([5, 10, 20], true, 2, "z");
     translate([0,45,10]) // volume buttons
     roundedcube([20, 40, 20], true, 2, "all");
     translate([75,52.5,10]) // custom button on left
