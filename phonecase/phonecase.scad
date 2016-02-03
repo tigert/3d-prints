@@ -39,8 +39,6 @@ color("Yellow")
 
 difference() {
     roundedcube([71.9+1.4, 143.2+1.4, 8.5+1.4], false, 6, "zmax");
-    translate(v = [0.7,0.7,-0.7]) // cutout shell
-    roundedcube([71.9, 143.2, 8.5+100], false, 5, "zmax");
     translate([71.9/2,18,0]) // camera
     roundedcube([14, 14, 20], true, 2, "z");
     translate([71.9/2,32,0]) // fingerprint sensor
@@ -56,3 +54,5 @@ difference() {
     translate([71.9/2,145,11]) // usb + speakers on bottom
     roundedcube([55, 20, 20], true, 2, "all");
 }
+    translate(v = [0.7,0.7,-0.7]) // cutout shell
+    roundedcube([71.9, 143.2, 8.5+100], false, 5, "zmax");
