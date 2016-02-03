@@ -1,5 +1,10 @@
 include <roundedcube.scad>
 
+// huawei hero 7
+phone_width = 71.9; //[1:iPhone 4,1:iPhone 4S,2:iPhone 5]
+phone_length = 143.2;
+phone_thickness = 8.5; // includes lens bulge!
+
 difference() {
     roundedcube([(71.9+1.4), 143.2+1.4, 8.5+1.4], true, 6, "z");
     translate(v = [0,0,0]) // inner cutout shell (phone)
