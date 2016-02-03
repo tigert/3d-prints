@@ -18,7 +18,7 @@ difference() {
 
     color("Red");
 
-    translate([0-(71.9/2),45,10]) // volume buttons
+    translate([0-(71.9/2),45-(143.2/2),10]) // volume buttons
     roundedcube([20, 40, 20], true, 2, "all");
     translate([75,52.5,10]) // custom button on left
     roundedcube([20, 10, 20], true, 2, "all");
