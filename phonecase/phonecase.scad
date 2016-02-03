@@ -38,7 +38,7 @@ apply_to = "all";
 color("Yellow")
 
 difference() {
-    roundedcube([71.9+1.4, 143.2+1.4, 8.5+1.4+2], false, 6, "zmin");
+    roundedcube([71.9+1.4, 143.2+1.4, 8.5+1.4], false, 6, "zmin");
     translate(v = [0.7,0.7,0.7+1]) // cutout shell
     roundedcube([71.9, 143.2, 8.5+2], false, 5, "zmin");
     translate([71.9/2,18,0]) // camera
