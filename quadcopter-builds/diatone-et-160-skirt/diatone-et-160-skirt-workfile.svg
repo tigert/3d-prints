@@ -70,7 +70,7 @@
      inkscape:snap-center="true"
      inkscape:snap-global="false"
      inkscape:zoom="3.6644086"
-     inkscape:cx="362.19885"
+     inkscape:cx="340.36722"
      inkscape:cy="332.07069"
      inkscape:window-x="0"
      inkscape:window-y="27"
@@ -249,5 +249,13 @@
        inkscape:connector-curvature="0"
        style="display:inline;fill:#3366cc;stroke:#00cc00;stroke-width:0.08466666;stroke-miterlimit:4;stroke-dasharray:none"
        sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#path5058"
+       id="use11587"
+       transform="matrix(-1,0,0,1,21.617608,0)"
+       width="100%"
+       height="100%" />
   </g>
 </svg>
