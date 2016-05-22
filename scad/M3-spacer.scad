@@ -1,4 +1,4 @@
-$offset = 22;
+$offset = 30.5;
 
 module spacer($inner = 3.2, $thickness = 2, $height = 5) 
 {
