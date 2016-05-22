@@ -13,3 +13,5 @@ module spacer_m3($inner = 3.2, $outer = $inner+2, $height = 5)
   }
 }
 
+spacer_m3();
+
