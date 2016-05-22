@@ -4,7 +4,7 @@ $outer = $inner+2;
 $height = 5;
 $fn = 90;
 
-module spacer_m3(inner = 3.2, outer = inner+2, height = 5) 
+module spacer_m3($inner = 3.2, $outer = $inner+2, $height = 5) 
 {
   difference()
   {
