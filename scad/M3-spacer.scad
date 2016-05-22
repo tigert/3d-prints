@@ -13,5 +13,5 @@ module spacer($inner = 3, $thickness = 2, $height = 5)
   }
 }
 
-spacer(6, 3, 10);
+spacer(3, 3, 10);
 
