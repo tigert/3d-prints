@@ -16,7 +16,7 @@ module spacer($inner = 3, $thickness = 2, $height = 5)
 union()
 {
     spacer(3.4, 2, 5);
-    translate(22,0,0)
+    translate(2,0,0)
     {
         spacer(3.4, 2, 5);
     }
