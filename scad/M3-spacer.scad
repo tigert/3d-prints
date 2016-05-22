@@ -8,7 +8,7 @@ module spacer($inner = 3, $thickness = 2, $height = 5)
 {
   difference()
   {
-    cylinder(r=$inner+$outer, h=$height);
+    cylinder(r=$inner+$thickness, h=$height);
     translate([0,0,-$height/2]) cylinder(r=$inner, h=$height*2);
   }
 }
