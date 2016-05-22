@@ -1,8 +1,4 @@
-
-$inner = 3.2;
-$outer = $inner+2;
-$height = 5;
-$fn = 90;
+$offset = 22;
 
 module spacer($inner = 3.2, $thickness = 2, $height = 5) 
 {
@@ -13,11 +9,7 @@ module spacer($inner = 3.2, $thickness = 2, $height = 5)
   }
 }
 
-union()
-{
-    spacer();
-    translate(2,0,0)
-    {
-        spacer();
-    }
-}
+spacer();
+translate([$offset,0,0]) { spacer(); }
+translate([0,$offset,0]) { spacer(); }
+translate([$offset,$offset,0]) { spacer(); }
